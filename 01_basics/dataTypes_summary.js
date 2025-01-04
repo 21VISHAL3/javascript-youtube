@@ -33,3 +33,23 @@ const myFunction = function(){    // dataTypes : function
 
 console.log(typeof bigNumber);  // undefined
 console.log(typeof outsideTemp); // object
+
+
+// ***************************************
+
+// stack(primitive), Heap(nonprimitive) :memory
+   // copy              // reference
+// let myYotubenames = "vishal"
+// let anothername = "myYotubenames"
+anothername = "bakwash"
+console.log(anothername);  // bakwash
+
+let userOne = {
+     email: "user@google.com",
+     upi: "userpytm",
+}
+ 
+let userTwo = userOne
+userTwo.email = "vishal@google.com"  
+console.log(userOne.email);     // vishal@google.com
+console.log(usertwo.email);     // vishal@google.com
