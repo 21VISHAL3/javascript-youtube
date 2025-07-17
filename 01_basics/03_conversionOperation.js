@@ -9,6 +9,7 @@ console.log(valueInNumebr);
 
 // "33" => 33
 //  "33abc" => NaN
+// null => 0
 //  true => 1;
 
 let isLoggedIn = true
