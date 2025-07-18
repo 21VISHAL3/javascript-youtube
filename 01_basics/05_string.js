@@ -3,7 +3,7 @@ const repocount = 2
 // console.log(name + repocount + " value" );
 console.log(`hello my name is ${name} and my reppo count is ${repocount}`);
 
-const gameName = newStrong('histesh-hc')
+const gameName = new String('histesh-hc')
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 
